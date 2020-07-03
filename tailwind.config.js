@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: ['instyle.html']
   },
   theme: {
@@ -29,6 +29,9 @@ module.exports = {
         '72': '18rem',
         '84': '21rem',
         '96': '24rem',
+      },
+      margin: {
+        '7': '1.75rem',
       },
       colors: {
         palesteel: '#E4EFF5',
